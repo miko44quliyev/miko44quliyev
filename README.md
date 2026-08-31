@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/miko44quliyev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF7F&center=true&vCenter=true&width=450&lines=Software+Architect;Full-Stack+Developer;Java+%7C+Spring+%7C+Microservices;Building+WayGo+🚗" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF7F&center=true&vCenter=true&width=450&lines=Software+Architect;Full-Stack+Developer;Java+%7C+Spring+%7C+Microservices;Building+WayGo" alt="Typing SVG" />
   </a>
 </p>
 
