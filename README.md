@@ -1,24 +1,32 @@
 <h1 align="center">Hi 👋, I'm Mikayil Quliyev</h1>
-<h3 align="center">A passionate Full-Stack Developer from Azerbaijan 🇦🇿</h3>
+<h3 align="center">Software Architect & Full-Stack Developer 🇦🇿</h3>
 
 <p align="center">
   <a href="https://github.com/miko44quliyev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF7F&center=true&vCenter=true&width=435&lines=Software+Engineer;Full-Stack+Developer;Building+WayGo+🚗;Tech+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF7F&center=true&vCenter=true&width=450&lines=Software+Architect;Full-Stack+Developer;Java+%7C+Spring+%7C+Microservices;Building+WayGo+🚗" alt="Typing SVG" />
   </a>
 </p>
 
 ---
 
 ### 🚀 About Me
-- 🏢 I’m currently building **WayGo**, an innovative navigation and traffic platform.
-- 💻 I love working with **React, TypeScript, Java (Spring Boot), and Python**.
-- 📚 I’m currently learning advanced **AI, Data Structures & System Architecture**.
-- 🤝 I’m looking to collaborate on **Open Source projects** and impactful software.
+- 🏢 I specialize in designing and building scalable **Microservices Architectures**.
+- 💻 My core expertise is in **Java, Spring Boot, Docker, and CI/CD pipelines**.
+- 🌐 I also build modern and responsive frontend applications using **React and TypeScript**.
+- 🛠️ Currently architecting and building **WayGo**, an innovative navigation platform.
+- 🤝 Always open to discussing **System Architecture, Backend Engineering, and Open Source**.
 - 📬 How to reach me: **mikayilquliyev16@gmail.com**
 
-### 🛠️ Languages and Tools
+### 🛠️ Technologies & Tools
+
+**Backend & Architecture:**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,ts,react,python,docker,git,postgres,aws,linux,html,css" />
+  <img src="https://skillicons.dev/icons?i=java,spring,docker,postgres,redis,rabbitmq,aws,linux,nginx" />
+</p>
+
+**Frontend:**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,tailwind,html,css,figma" />
 </p>
 
 ---
