@@ -14,13 +14,6 @@
 
 ---
 
-### 🏆 GITHUB TROPHIES
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=miko44quliyev&theme=flat&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
-  </a>
-</p>
-
 ### 👨‍💻 PROFESSIONAL SUMMARY
 
 Driven Software Developer with a strong foundation in designing and developing scalable distributed systems. Experienced in building microservices architectures, optimizing backend logic, and implementing CI/CD pipelines. Highly passionate about continuous learning, modern cloud-native technologies, and engineering reliable solutions.
@@ -40,12 +33,6 @@ Driven Software Developer with a strong foundation in designing and developing s
 </div>
 
 <br/>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=miko44quliyev&bg_color=ffffff&color=2C3E50&line=3b82f6&point=2C3E50&area=true&hide_border=true" alt="Activity Graph" />
-</p>
-
----
 
 ### 🐍 CONTRIBUTION SNAKE
 <p align="center">
