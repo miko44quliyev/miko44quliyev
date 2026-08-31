@@ -33,7 +33,6 @@
 
 ### 📊 My GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=miko44quliyev&show_icons=true&theme=radium&hide_border=true" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=miko44quliyev&theme=radium&hide_border=true" />
 </p>
 
