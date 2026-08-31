@@ -1,17 +1,17 @@
 <div align="center">
-  <h2>MIKAYIL QULIYEV</h2>
-  <h4>Software Architect | Distributed Systems Engineer</h4>
+  <h2>MIKAYIL GULIYEV</h2>
+  <h4>Software Developer</h4>
   
   <a href="https://github.com/miko44quliyev">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=4000&pause=1000&color=2C3E50&center=true&vCenter=true&width=600&lines=Architecting+Scalable+Microservices;Engineering+High-Performance+Backends;Driving+Technical+Excellence;Enterprise+Java+%26+Spring+Boot" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=4000&pause=1000&color=2C3E50&center=true&vCenter=true&width=600&lines=Building+Scalable+Microservices;Backend+Engineering;Continuous+Learning;Java+%26+Spring+Boot" alt="Typing SVG" />
   </a>
 </div>
 
 ---
 
-### EXECUTIVE SUMMARY
+### PROFESSIONAL SUMMARY
 
-Software Architect and Senior Engineer specializing in the design, development, and deployment of scalable, high-availability distributed systems. Proven expertise in orchestrating complex microservices architectures, optimizing backend performance, and implementing robust CI/CD infrastructure. Passionate about driving technical excellence and leveraging modern cloud-native technologies to engineer enterprise-grade solutions.
+Driven Software Developer with a strong foundation in designing and developing scalable distributed systems. Experienced in building microservices architectures, optimizing backend logic, and implementing CI/CD pipelines. Highly passionate about continuous learning, modern cloud-native technologies, and engineering reliable solutions.
 
 ### CORE COMPETENCIES
 
