@@ -23,6 +23,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/profile-3d-noir.json
+      - name: Apply noir palette fixes
+        run: |
+          python3 - <<'PY'
+          import pathlib
+          p = pathlib.Path("profile-3d-contrib/profile-noir.svg")
+          if p.exists():
+              s = p.read_text(encoding="utf-8")
+              s = s.replace("#b07219", "#b3121b")
+              s = s.replace("#f1e05a", "#e07a5f")
+              p.write_text(s, encoding="utf-8")
+          PY
       - name: Commit & Push
         run: |
           git config user.name github-actions

@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:mikayilquliyev16@gmail.com"><img src="https://img.shields.io/badge/Email-0B0B0B?style=for-the-badge&logo=gmail&logoColor=C9A227" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/mikay%C4%B1l-quliyev-341275306/"><img src="https://img.shields.io/badge/LinkedIn-0B0B0B?style=for-the-badge&logo=linkedin&logoColor=C9A227" alt="LinkedIn" /></a>
-  <a href="https://github.com/miko44quliyev?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0B0B0B?style=for-the-badge&logo=github&logoColor=C9A227" alt="Repositories" /></a>
+  <a href="mailto:mikayilquliyev16@gmail.com"><img src="https://img.shields.io/badge/Email-0B0B0B?style=for-the-badge&logo=gmail&logoColor=E52533" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/mikay%C4%B1l-quliyev-341275306/"><img src="https://img.shields.io/badge/LinkedIn-0B0B0B?style=for-the-badge&logo=linkedin&logoColor=E52533" alt="LinkedIn" /></a>
+  <a href="https://github.com/miko44quliyev?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0B0B0B?style=for-the-badge&logo=github&logoColor=E52533" alt="Repositories" /></a>
 </p>
 
 ## About
@@ -25,7 +25,7 @@ I'm Mikayil, a software engineer and Computer Engineering student at Baku Engine
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=miko44quliyev&hide_border=true&background=0A0908&ring=C9A227&fire=B3121B&currStreakNum=EFE6D2&sideNums=EFE6D2&currStreakLabel=C9A227&sideLabels=8C8273&dates=5E574C&stroke=2A241C" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=miko44quliyev&hide_border=true&background=0A0908&ring=E52533&fire=B3121B&currStreakNum=EFE6D2&sideNums=EFE6D2&currStreakLabel=E52533&sideLabels=8C8273&dates=5E574C&stroke=2A241C" alt="GitHub streak" />
 </p>
 
 <p align="center">
