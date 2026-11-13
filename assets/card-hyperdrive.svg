@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" role="img" aria-label="HyperDrive Pro">
+  <title>HyperDrive Pro — Game · Vanilla JS</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1222"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#34d399" stop-opacity=".28"/><stop offset=".6" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="600" height="280" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .k{font:600 12.5px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace;fill:#60a5fa;letter-spacing:1.5px}
+    .t{font:800 28px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#f1f5f9;letter-spacing:-.4px}
+    .d{font:400 15.5px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#94a3b8}
+    .p{fill:#0f172a;stroke:#2a3650}
+    .pt{font:600 12.5px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#cbd5e1}
+    .f{font:600 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#64748b}
+    .bar{animation:grow 1.2s cubic-bezier(.2,.8,.2,1) forwards;transform-origin:left;transform:scaleX(0)}
+    @keyframes grow{to{transform:scaleX(1)}}
+    .glow{animation:breathe 5s ease-in-out infinite}
+    @keyframes breathe{50%{opacity:.45}}
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="600" height="280" fill="url(#bg)"/>
+    <rect width="600" height="280" fill="url(#glow)" class="glow"/>
+    <rect width="600" height="4" fill="url(#ac)" class="bar"/>
+    <text x="32" y="52" class="k">GAME · VANILLA JS</text>
+    <text x="32" y="92" class="t">HyperDrive Pro</text>
+    <text x="32" y="132" class="d">Top-down endless traffic racer on HTML5 Canvas: dodge traffic,</text><text x="32" y="156" class="d">chain near-misses, unlock 20 cars. No libraries, no</text><text x="32" y="180" class="d">frameworks, no build tools.</text>
+    <rect x="32" y="210" width="87" height="26" rx="7" class="p"/><text x="76" y="227.5" text-anchor="middle" class="pt">JavaScript</text><rect x="127" y="210" width="102" height="26" rx="7" class="p"/><text x="178" y="227.5" text-anchor="middle" class="pt">HTML5 Canvas</text><rect x="237" y="210" width="36" height="26" rx="7" class="p"/><text x="255" y="227.5" text-anchor="middle" class="pt">CSS</text><rect x="280" y="210" width="102" height="26" rx="7" class="p"/><text x="331" y="227.5" text-anchor="middle" class="pt">GitHub Pages</text>
+    <text x="32" y="262" class="f">playable in the browser</text>
+    <text x="568" y="262" text-anchor="end" class="f" fill="#60a5fa" style="fill:#60a5fa">view repo →</text>
+  </g>
+  <rect x=".5" y=".5" width="599" height="279" rx="17.5" fill="none" stroke="#25304a"/>
+</svg>

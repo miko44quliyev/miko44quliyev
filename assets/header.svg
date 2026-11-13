@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Mikayil Guliyev — Backend Engineer (Java &amp; Spring Boot)">
+  <title>Mikayil Guliyev — Backend Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/><stop offset=".55" stop-color="#0d1426"/><stop offset="1" stop-color="#130d26"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5eead4" stop-opacity=".55"/><stop offset=".5" stop-color="#60a5fa" stop-opacity=".12"/><stop offset="1" stop-color="#c084fc" stop-opacity=".55"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#94a3b8" fill-opacity=".13"/></pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+    <clipPath id="clip"><rect width="1200" height="340" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .orb1{animation:drift1 14s ease-in-out infinite alternate}
+    .orb2{animation:drift2 18s ease-in-out infinite alternate}
+    @keyframes drift1{to{transform:translate(140px,40px)}}
+    @keyframes drift2{to{transform:translate(-160px,-30px)}}
+    .prompt{font:500 17px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace;fill:#64748b}
+    .prompt tspan.u{fill:#5eead4} .prompt tspan.c{fill:#e2e8f0}
+    .cursor{fill:#5eead4;animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .name{font:800 66px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;letter-spacing:-1.5px}
+    .role{font:600 25px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#cbd5e1}
+    .role tspan{fill:#5eead4}
+    .sub{font:400 17px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#94a3b8}
+    .pill{fill:#0f172a;stroke:#334155;stroke-width:1}
+    .pillt{font:600 14px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#cbd5e1}
+    .fade{opacity:0;animation:in .9s ease-out forwards}
+    @keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    .wire{fill:none;stroke:#334155;stroke-width:1.6}
+    .flow{fill:none;stroke:#5eead4;stroke-width:2.2;stroke-linecap:round;stroke-dasharray:10 190;animation:flow 2.6s linear infinite}
+    @keyframes flow{from{stroke-dashoffset:200}to{stroke-dashoffset:0}}
+    .svc{fill:#0b1222;stroke:#334155}
+    .svct{font:500 13px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace;fill:#cbd5e1}
+    .gw{fill:#0e1a2f;stroke:#5eead4;stroke-width:1.5}
+    .gwt{font:700 15px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#e2e8f0} .gws{font:500 11px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace;fill:#5eead4}
+    .led{fill:#22c55e;animation:pulse 2s ease-in-out infinite}
+    @keyframes pulse{50%{fill-opacity:.25}}
+    .node{opacity:0;animation:in .7s ease-out forwards;animation-delay:.4s}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <circle class="orb1" cx="230" cy="40" r="170" fill="#0ea5e9" fill-opacity=".30" filter="url(#blur)"/>
+    <circle class="orb2" cx="1000" cy="320" r="190" fill="#8b5cf6" fill-opacity=".30" filter="url(#blur)"/>
+    <g class="fade" style="animation-delay:.05s">
+      <text x="64" y="74" class="prompt"><tspan class="u">miko44quliyev</tspan>@github:~$ <tspan class="c">whoami</tspan></text>
+      <rect x="366" y="60" width="10" height="19" class="cursor"/>
+    </g>
+    <text x="61" y="152" class="name fade" fill="url(#name)" style="animation-delay:.2s">Mikayil Guliyev</text>
+    <text x="64" y="194" class="role fade" style="animation-delay:.35s">Backend Engineer <tspan>·</tspan> Java &amp; Spring Boot</text>
+    <text x="64" y="224" class="sub fade" style="animation-delay:.5s">Computer Engineering student @ Baku Engineering University</text>
+    <g class="fade" style="animation-delay:.65s"><g><rect x="64" y="246" width="50" height="30" rx="15" class="pill"/><text x="89" y="266" text-anchor="middle" class="pillt">Java</text></g><g><rect x="123.6" y="246" width="108" height="30" rx="15" class="pill"/><text x="178" y="266" text-anchor="middle" class="pillt">Spring Boot</text></g><g><rect x="242.0" y="246" width="125" height="30" rx="15" class="pill"/><text x="305" y="266" text-anchor="middle" class="pillt">Microservices</text></g><g><rect x="377.2" y="246" width="66" height="30" rx="15" class="pill"/><text x="410" y="266" text-anchor="middle" class="pillt">Docker</text></g><g><rect x="453.6" y="246" width="100" height="30" rx="15" class="pill"/><text x="504" y="266" text-anchor="middle" class="pillt">PostgreSQL</text></g></g>
+    <path d="M760,170 L843,170" class="wire"/><path d="M760,170 L843,170" class="flow"/><g class="node"><rect x="700" y="153" width="80" height="34" rx="9" class="svc"/><text x="740" y="174.5" text-anchor="middle" class="svct">client</text></g>
+    <path d="M967,170 C1015,170 970,62 1028,62" class="wire"/><path d="M967,170 C1015,170 970,62 1028,62" class="flow" style="animation-delay:-0.00s"/><path d="M967,170 C1015,170 970,116 1028,116" class="wire"/><path d="M967,170 C1015,170 970,116 1028,116" class="flow" style="animation-delay:-0.45s"/><path d="M967,170 C1015,170 970,170 1028,170" class="wire"/><path d="M967,170 C1015,170 970,170 1028,170" class="flow" style="animation-delay:-0.90s"/><path d="M967,170 C1015,170 970,224 1028,224" class="wire"/><path d="M967,170 C1015,170 970,224 1028,224" class="flow" style="animation-delay:-1.35s"/><path d="M967,170 C1015,170 970,278 1028,278" class="wire"/><path d="M967,170 C1015,170 970,278 1028,278" class="flow" style="animation-delay:-1.80s"/>
+    <g class="node"><rect x="843" y="144" width="124" height="52" rx="12" class="gw"/><text x="905" y="167" text-anchor="middle" class="gwt">API Gateway</text><text x="905" y="184" text-anchor="middle" class="gws">Spring Cloud</text></g>
+    <g class="node" style="animation-delay:0.00s"><rect x="1028" y="45" width="148" height="34" rx="9" class="svc"/><circle cx="1042" cy="62" r="3.5" class="led" style="animation-delay:0.00s"/><text x="1052" y="66.5" class="svct">ms-auth</text></g><g class="node" style="animation-delay:0.15s"><rect x="1028" y="99" width="148" height="34" rx="9" class="svc"/><circle cx="1042" cy="116" r="3.5" class="led" style="animation-delay:0.30s"/><text x="1052" y="120.5" class="svct">ms-course</text></g><g class="node" style="animation-delay:0.30s"><rect x="1028" y="153" width="148" height="34" rx="9" class="svc"/><circle cx="1042" cy="170" r="3.5" class="led" style="animation-delay:0.60s"/><text x="1052" y="174.5" class="svct">ms-content</text></g><g class="node" style="animation-delay:0.45s"><rect x="1028" y="207" width="148" height="34" rx="9" class="svc"/><circle cx="1042" cy="224" r="3.5" class="led" style="animation-delay:0.90s"/><text x="1052" y="228.5" class="svct">ms-assessment</text></g><g class="node" style="animation-delay:0.60s"><rect x="1028" y="261" width="148" height="34" rx="9" class="svc"/><circle cx="1042" cy="278" r="3.5" class="led" style="animation-delay:1.20s"/><text x="1052" y="282.5" class="svct">ms-assignment</text></g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="338.5" rx="21.5" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

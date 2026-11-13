@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+  </defs>
+  <style>
+    .w1{animation:m 9s linear infinite} .w2{animation:m 13s linear infinite reverse}
+    @keyframes m{to{transform:translateX(-600px)}}
+  </style>
+  <clipPath id="fc"><rect width="1200" height="120" rx="16"/></clipPath>
+  <g opacity=".9" clip-path="url(#fc)">
+    <path class="w1" fill="url(#g)" fill-opacity=".35" d="M0,70 C150,40 300,100 450,70 C600,40 750,100 900,70 C1050,40 1200,100 1350,70 C1500,40 1650,100 1800,70 L1800,120 L0,120 Z"/>
+    <path class="w2" fill="url(#g)" fill-opacity=".6" d="M0,85 C150,110 300,60 450,85 C600,110 750,60 900,85 C1050,110 1200,60 1350,85 C1500,110 1650,60 1800,85 L1800,120 L0,120 Z"/>
+  </g>
+</svg>

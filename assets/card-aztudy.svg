@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" role="img" aria-label="Aztudy">
+  <title>Aztudy — Microservices · Learning platform</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1222"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".28"/><stop offset=".6" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="600" height="280" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .k{font:600 12.5px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace;fill:#5eead4;letter-spacing:1.5px}
+    .t{font:800 28px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#f1f5f9;letter-spacing:-.4px}
+    .d{font:400 15.5px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#94a3b8}
+    .p{fill:#0f172a;stroke:#2a3650}
+    .pt{font:600 12.5px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#cbd5e1}
+    .f{font:600 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;fill:#64748b}
+    .bar{animation:grow 1.2s cubic-bezier(.2,.8,.2,1) forwards;transform-origin:left;transform:scaleX(0)}
+    @keyframes grow{to{transform:scaleX(1)}}
+    .glow{animation:breathe 5s ease-in-out infinite}
+    @keyframes breathe{50%{opacity:.45}}
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="600" height="280" fill="url(#bg)"/>
+    <rect width="600" height="280" fill="url(#glow)" class="glow"/>
+    <rect width="600" height="4" fill="url(#ac)" class="bar"/>
+    <text x="32" y="52" class="k">MICROSERVICES · LEARNING PLATFORM</text>
+    <text x="32" y="92" class="t">Aztudy</text>
+    <text x="32" y="132" class="d">Learning platform split into auth, course, content, assessment</text><text x="32" y="156" class="d">and assignment services behind a Spring Cloud Gateway, with a</text><text x="32" y="180" class="d">React + Vite frontend.</text>
+    <rect x="32" y="210" width="102" height="26" rx="7" class="p"/><text x="83" y="227.5" text-anchor="middle" class="pt">Spring Cloud</text><rect x="142" y="210" width="87" height="26" rx="7" class="p"/><text x="185" y="227.5" text-anchor="middle" class="pt">PostgreSQL</text><rect x="237" y="210" width="50" height="26" rx="7" class="p"/><text x="262" y="227.5" text-anchor="middle" class="pt">Redis</text><rect x="295" y="210" width="50" height="26" rx="7" class="p"/><text x="320" y="227.5" text-anchor="middle" class="pt">MinIO</text><rect x="354" y="210" width="116" height="26" rx="7" class="p"/><text x="412" y="227.5" text-anchor="middle" class="pt">Docker Compose</text>
+    <text x="32" y="262" class="f">5 services · gateway · React client</text>
+    <text x="568" y="262" text-anchor="end" class="f" fill="#5eead4" style="fill:#5eead4">view repo →</text>
+  </g>
+  <rect x=".5" y=".5" width="599" height="279" rx="17.5" fill="none" stroke="#25304a"/>
+</svg>
