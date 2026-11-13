@@ -3,9 +3,9 @@
   "fileName": "profile-noir.svg",
   "backgroundColor": "#0a0908",
   "foregroundColor": "#efe6d2",
-  "strongColor": "#c9a227",
+  "strongColor": "#e52533",
   "weakColor": "#8c8273",
   "radarColor": "#b3121b",
   "growingAnimation": true,
-  "contribColors": ["#1c1916", "#4a1014", "#7a1219", "#b3121b", "#c9a227"]
+  "contribColors": ["#1c1916", "#4a1014", "#7a1219", "#b3121b", "#e52533"]
 }
