@@ -29,10 +29,7 @@ I'm Mikayil, a software engineer and Computer Engineering student at Baku Engine
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg" />
-    <img src="./dist/github-contribution-grid-snake.svg" width="100%" alt="Snake eating the contribution graph" />
-  </picture>
+  <img src="./dist/github-contribution-grid-snake.svg" width="100%" alt="Snake eating the contribution graph" />
 </p>
 
 <p align="center">

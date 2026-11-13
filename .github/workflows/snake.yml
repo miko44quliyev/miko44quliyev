@@ -18,13 +18,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate snake SVGs (light + dark)
+      - name: Generate snake SVG (noir colors)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#b3121b
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#c9a227
+            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#efe6d2&color_dots=#1c1916,#4a1014,#7a1219,#b3121b,#c9a227
+
+      # snk only paints a background for GIFs, so add a black card behind the SVG
+      # to match the rest of the profile in both light and dark mode.
+      - name: Add black background
+        run: |
+          python3 - <<'PY'
+          import pathlib, re
+          p = pathlib.Path("dist/github-contribution-grid-snake.svg")
+          s = p.read_text()
+          x, y, w, h = re.search(r'viewBox="([-\d.]+) ([-\d.]+) ([\d.]+) ([\d.]+)"', s).groups()
+          rect = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" fill="#0a0908"/>'
+          s = re.sub(r"(<svg[^>]*>)", lambda m: m.group(1) + rect, s, count=1)
+          p.write_text(s)
+          PY
 
       - name: Commit and push
         run: |
