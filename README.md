@@ -10,7 +10,7 @@
 
 ## About
 
-I'm **Mikayil Guliyev**, a Software Engineer focused on designing and building scalable, production-ready distributed systems and microservices with **Java & Spring Boot**. My core technical foundation centers on clean architecture, asynchronous event-driven pipelines with RabbitMQ, relational data modeling and query optimization in PostgreSQL, and robust API security using Spring Security and JWT. Currently pursuing a B.Sc. in Computer Engineering at Baku Engineering University (GPA: 92.8/100), an Ironhack Web Development & AI bootcamp graduate with a 100/100 score, and an ICPC Programming Tournament quarter-finalist, I am committed to engineering resilient, high-throughput backend systems built for real-world scale.
+I'm **Mikayil Guliyev**, a Software Engineer focused on designing and building scalable, production-ready distributed systems, backend architectures, and high-performance microservices. My technical foundation centers on clean architecture, asynchronous event-driven pipelines with RabbitMQ, relational data modeling and query optimization in PostgreSQL, and robust API security using Spring Security and JWT. Experienced across multiple languages and modern frameworks including Kotlin, Java, C#, and web technologies, currently pursuing a B.Sc. in Computer Engineering at Baku Engineering University (GPA: 92.8/100), an Ironhack Web Development & AI bootcamp graduate with a 100/100 score, and an ICPC Programming Tournament quarter-finalist, I am committed to engineering resilient, high-throughput systems built for real-world scale.
 
 ## Tech Stack
 
