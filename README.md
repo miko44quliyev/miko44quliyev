@@ -28,8 +28,12 @@ Computer Engineering student at **Baku Engineering University** building backend
     <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,aws,nginx,linux,vercel&theme=dark" alt="Docker, Kubernetes, GitHub Actions, AWS, Nginx, Linux, Vercel" /></td>
   </tr>
   <tr>
-    <td><b>Frontend &amp; Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=react,nextjs,svelte,tailwind,vite,git,github,postman,idea&theme=dark" alt="React, Next.js, Svelte, Tailwind, Vite, Git, GitHub, Postman, IntelliJ IDEA" /></td>
+    <td><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,svelte,tailwind,vite,html,css&theme=dark" alt="React, Next.js, Svelte, Tailwind, Vite, HTML, CSS" /></td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,gradle,maven,postman,idea&theme=dark" alt="Git, GitHub, Gradle, Maven, Postman, IntelliJ IDEA" /></td>
   </tr>
 </table>
 
